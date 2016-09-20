@@ -232,13 +232,43 @@ p{
 }
 
 
+#left{
+    background-image: url(imgs/bg1.jpg);
+}
 
-/* Demos Menu
- * --------------------------------------- */
- #demosMenu{
-	position:fixed;
-	bottom: 10px;
-	right:10px;
-	z-index: 999;
- }
+#right{
+    background-image: url(imgs/bg2.jpg);
+}
 
+#footer-img-1{
+    
+    
+}
+
+#footer-img-2{
+    
+    
+}
+
+#personas{
+    background-color: black;
+}
+
+#ty{
+    background-color: dimgrey;
+}
+
+@font-face{
+    font-family: pfd;
+    src: url(fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face{
+    font-family: lato;
+    src: url(fonts/Lato/Lato-Light.ttf);
+}
+
+
+.ty{
+    font-family: lato;
+}
